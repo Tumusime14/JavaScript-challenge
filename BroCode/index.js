@@ -1,12 +1,29 @@
-const fruits = [
-	{ name: "apple", color: "red", calories: 56 },
-	{ name: "mango", color: "green", calories: 67 },
-	{ name: "grapes", color: "purple", calories: 45 },
-];
+const date = new Date();
+const yr = date.getFullYear();
+const month = date.getMonth();
+const day = date.getDate();
 
-fruits.forEach((fruit) => console.log(fruit.name));
-const fruitsNames = fruits.map((fruit) => fruit.name);
-console.log(fruitsNames);
+console.log(yr);
+console.log(month);
+console.log(day);
+console.log();
+console.log();
+console.log();
+
+// const numbers = [23, 3,3, 4, 45, 56, 6, 78];
+
+// numbers.sort((a, b) => b - a);
+// console.log(numbers);
+
+// const fruits = [
+// 	{ name: "apple", color: "red", calories: 56 },
+// 	{ name: "mango", color: "green", calories: 67 },
+// 	{ name: "grapes", color: "purple", calories: 45 },
+// ];
+
+// fruits.forEach((fruit) => console.log(fruit.name));
+// const fruitsNames = fruits.map((fruit) => fruit.name);
+// console.log(fruitsNames);
 
 // class Rectangle {
 // 	constructor(width, height) {
