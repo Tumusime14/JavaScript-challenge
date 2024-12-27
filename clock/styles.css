@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./bkg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content-container{
+    display: flex;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    
+}
+#clock{
+    border: 2px solid white;
+    font-family: monospace;
+    backdrop-filter: blur(6px);
+}
