@@ -16,7 +16,7 @@ function walkDog() {
 function cleanKitchen() {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
-			let cleaned = false;
+			let cleaned = true;
 			if (cleaned) {
 				resolve("You cleaned the Kitchen🔪!");
 			} else {
